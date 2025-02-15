@@ -93,6 +93,7 @@ body {
 }
 
 
+
 /* ------------------------------------------------------------------- 
  * ## links - (_document-setup.scss) 
  * ------------------------------------------------------------------- */
@@ -1660,7 +1661,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #F19A0F;
 }
 
 
@@ -1774,27 +1775,29 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.8rem;
-    color: #862121;
+    font-size: 3rem;
+    color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: .5rem;
+    line-height: 1.35;
+    margin-top: 0;
+    /* letter-spacing: .5rem;
     position: relative;
     padding-left: 80px;
     margin-left: -30px;
-    margin-bottom: .6rem;
+    margin-bottom: .6rem; */
 }
 
-.home-content h3::before {
+/* .home-content h3::before {
     display: block;
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #ffffff;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
     top: 50%;
-}
+} */
 
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
@@ -1802,6 +1805,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 6rem;
     line-height: 1.35;
     margin-top: 0;
+}
+
+.home-content img {
+    height: 230px;
+    width: 230px;
+    margin-left: 70px;
 }
 
 .home-content__main {
@@ -1852,8 +1861,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #F19A0F;
+    border-right: 2px solid #F19A0F;
     content: '';
     display: block;
     height: 8px;
@@ -1872,6 +1881,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
+
 
 
 /* ------------------------------------------------------------------- 
