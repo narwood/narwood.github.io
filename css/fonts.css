@@ -1,6 +1,6 @@
 @font-face {
     font-family: "colonna-regular";
-    src: url("COLONNA.TTF") format("truetype");
+    src: url("../docs/COLONNA.TTF") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
