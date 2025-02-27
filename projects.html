@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo-circle.svg" type="image/x-icon">
+        <script src="scripts.js"></script>
+        <title>Nicole Arwood</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <img id="logo" src="img/logo.svg">
+            <br>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="projects.html">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="projects.html">ABOUT</a>
+                </li>
+            </ul>
+
+            <div class="text-wrapper">
+                <h1>PROJECTS</h1>
+            </div>
+            
+            <div id="project-pics">
+                <div class="row">
+                    <div class="small color1" onclick="showModal('achievements-modal')">
+                        <h1>User Achievement System</h1>
+                    </div>
+                    <div class="large color2" onclick="showModal('tetrashell-modal')">
+                        <h1>Tetrashell</h1>
+                    </div>
+                    <div class="small color3" onclick="showModal('nyt-modal')">
+                        <h1>NYT Sentiment Analysis</h1>
+                    </div>
+                </div>
+
+                <div class="stagger row">
+                    <div class="large color4" onclick="showModal('akari-modal')">
+                        <h1>Akari</h1>
+                    </div>
+                    <div class="middle large color5" onclick="showModal('graphics-modal')">
+                        <h1>Graphics Engine</h1>
+                    </div>
+                    <div class="large color6" onclick="showModal('arduino-modal')">
+                        <h1>Arduino</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modals below: only appear on click -->
+
+        <div id="modal-overlay"></div>
+
+        <div class="modal-body" id="achievements-modal">
+            <button onclick="hideModal('achievements-modal')">X</button>
+            <h1>User Achievements System</h1>
+            <img src="img/projects/achievements.png">       
+            <div>
+                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
+                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
+                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
+                    on an OKD platform. 
+                </p>
+                <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+            </div> 
+        </div>
+
+        <div class="modal-body" id="tetrashell-modal">
+            <button onclick="hideModal('tetrashell-modal')">X</button>
+            <h1>Tetrashell</h1>
+            <img src="img/projects/tetris.png">       
+            <div>
+                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
+                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
+                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
+                    on an OKD platform. 
+                </p>
+                <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+            </div> 
+        </div>
+
+        <div class="modal-body" id="nyt-modal">
+            <button onclick="hideModal('nyt-modal')">X</button>
+            <h1>NYT Sentiment Analysis</h1>
+            <img src="img/projects/achievements.png">       
+            <div>
+                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
+                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
+                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
+                    on an OKD platform. 
+                </p>
+                <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+            </div> 
+        </div>
+
+        <div class="modal-body" id="akari-modal">
+            <button onclick="hideModal('akari-modal')">X</button>
+            <h1>Akari</h1>
+            <img src="img/projects/akari.png">       
+            <div>
+                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
+                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
+                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
+                    on an OKD platform. 
+                </p>
+                <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+            </div> 
+        </div>
+        
+
+        <div class="modal-body" id="graphics-modal">
+            <button onclick="hideModal('graphics-modal')">X</button>
+            <h1>Graphics Engine</h1>
+            <img src="img/projects/graphics.png">       
+            <div>
+                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
+                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
+                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
+                    on an OKD platform. 
+                </p>
+                <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+            </div> 
+        </div>
+
+        <div class="modal-body" id="arduino-modal">
+            <button onclick="hideModal('arduino-modal')">X</button>
+            <h1>Arduino</h1>
+            <img src="img/projects/achievements.png">       
+            <div>
+                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
+                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
+                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
+                    on an OKD platform. 
+                </p>
+                <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+            </div> 
+        </div>
+    </body>
+</html>
