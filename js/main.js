@@ -18,5 +18,12 @@ function clickLink(page) {
     link.click();
 }
 
+function clickButton(link) {
+    let button = document.createElement('a');
+    button.href = link;
+    button.target = "blank";
+    button.click();
+}
+
 
 
