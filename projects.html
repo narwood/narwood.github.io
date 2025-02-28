@@ -89,20 +89,29 @@
             <h1>Tetrashell</h1>
             <img src="img/projects/tetris.png">       
             <div>
-                <p> 
+                <p><b>Built with:</b> C, Bash, Linux</p>
+                <br>
+                <p>I developed a program in C for modifying quicksave files in a terminal-based version of Tetris which ran
+                    in the Bash shell on a Linux server. Tetrashell supported 3 commands: modify, which allowed users to 
+                    change the score and lines-played values; check, which verified if a quicksave file appeared legitimate; 
+                    and rank, which ranked the user's quicksave files against all other quicksaves on the server.<br><br>
                 </p>
-                <p><b>Built with:</b></p>
             </div> 
         </div>
 
         <div class="modal-body" id="nyt-modal">
             <button onclick="hideModal('nyt-modal')">X</button>
-            <h1>NYT Sentiment Analysis</h1>
+            <h1>New York Times Sentiment Analysis</h1>
             <img src="img/projects/nyt.png">       
             <div>
-                <p> 
+                <p><b>Built with:</b> Express, Chart.js, NYT API, NLP API</p>
+                <br>
+                <p>I worked on a team of 2 to create an application that tracked the sentiment of headlines in the New York Times
+                    over a given date range. We used the NYT API to fetch article headlines and abstracts for the given date range,
+                    then concatenated the headline and abstract and ran them through an NLP API. The NLP API determined whether the
+                    article had a positive or negative tone and gave it a score on a scale from -1.0 to +1.0. We then used Chart.js 
+                    to graph NYT headline sentiment over time.
                 </p>
-                <p><b>Built with:</b></p>
             </div> 
         </div>
 
@@ -111,9 +120,13 @@
             <h1>Akari</h1>
             <img src="img/projects/akari.png">       
             <div>
-                <p> 
+                <p><b>Built with:</b> Java, JavaFX</p>
+                <br>
+                <p>Akari is a puzzle game where the player must place lightbulbs on the game board. Each white square must be 
+                    illuminated (within the direct path of a lightbulb), each blue square must have the appropriate number of
+                    lightbulbs touching it (0-3), and two lightbulbs cannot share a direct line of sight.<br><br>
+                    I programmed the game's logic in Java and created its interface using JavaFX.
                 </p>
-                <p><b>Built with:</b></p>
             </div> 
         </div>
         
@@ -123,21 +136,19 @@
             <h1>Graphics Engine</h1>
             <img src="img/projects/graphics.png">       
             <div>
-                <p> 
+                <p><b>Built with:</b> C++</p>
+                <br>
+                <p>Over the course of a semester, I programmed a graphics engine capable of handling blendmodes, tilemodes,
+                    efficiently drawing convex polygons, winding-fill paths, applying transformation matrices to paths, 
+                    approximating curves, linear gradients with arbitrary numbers of colors, triangular gradients, triangular
+                    meshes, and tessellation.
                 </p>
-                <p><b>Built with:</b></p>
             </div> 
         </div>
 
-        <div class="modal-body" id="arduino-modal">
-            <button onclick="hideModal('arduino-modal')">X</button>
-            <h1>Arduino</h1>
-            <img src="img/projects/achievements.png">       
-            <div>
-                <p>
-                </p>
-                <p><b>Built with:</b></p>
-            </div> 
-        </div>
+        <!-- Add Gerald back in? -->
+
+        <!-- Add dogpelgangers? -->
+
     </body>
 </html>

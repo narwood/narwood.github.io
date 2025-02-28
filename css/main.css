@@ -205,6 +205,10 @@ ul {
     vertical-align: top;
 }
 
+.modal-body div p {
+    margin: 0px;
+}
+
 /* Specific modal formatting */
 #achievements-modal img {
     width: 400px;
@@ -215,12 +219,30 @@ ul {
     height: 300px;
 }
 
-#achievements-modal div p {
-    margin: 0px;
-}
 
 #achievements-modal {
     height: 520px;
+}
+
+#tetrashell-modal {
+    width: 780px;
+}
+
+#nyt-modal img {
+    height: 220px;
+}
+
+#nyt-modal {
+    width: 700px;
+    height: 350px;
+}
+
+#graphics-modal {
+    width: 850px;
+}
+
+#akari-modal {
+    width: 800px;
 }
 
 
