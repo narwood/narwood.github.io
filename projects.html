@@ -61,14 +61,26 @@
         <div class="modal-body" id="achievements-modal">
             <button onclick="hideModal('achievements-modal')">X</button>
             <h1>User Achievements System</h1>
-            <img src="img/projects/achievements.png">       
             <div>
-                <p>I worked on a team of 4 to add a user achievements system to an internal CS website at UNC. Our team
-                    worked on the entire lifecycle of the feature - we wrote user stories, designed wireframes in Figma,
-                    managed a github project board, developed the feature, wrote documentation, and deployed our feature
-                    on an OKD platform. 
-                </p>
+                <p>Private profle page</p>
+                <img src="img/projects/achievements.png">
+                <p>Public profile page (only shows earned achievements)</p>
+                <img src="img/projects/achievements_public.png">
+            </div>     
+            <div>
                 <p><b>Built with:</b> Angular, FastAPI, SQLAlchemy, Jest, Docker, Figma, HTML, CSS, Typescript, and Python</p>
+                <br>
+                <p>I worked on a team of 4 to add an achievements section to profile pages on an internal CS website 
+                    at UNC. Our team managed the entire lifecycle of the feature; we wrote user stories, designed 
+                    wireframes, managed a project board, maintained documentation, and deployed our feature to an OKD 
+                    platform.<br><br>
+                    In the backend, we created an achievement entity, added an achievements table and a user-achievement join table 
+                    to the site's database, and created a backend service that updated each user's achievements every 
+                    5 minutes.<br><br>
+                    In the frontend, we added an achievements section to each user's public and private profile page, with purple icons
+                    representing achievements the user had earned, gray icons representing those they had yet to earn, and a progress bar for each
+                    achievement category.
+                </p>
             </div> 
         </div>
 
@@ -86,7 +98,7 @@
         <div class="modal-body" id="nyt-modal">
             <button onclick="hideModal('nyt-modal')">X</button>
             <h1>NYT Sentiment Analysis</h1>
-            <img src="img/projects/achievements.png">       
+            <img src="img/projects/nyt.png">       
             <div>
                 <p> 
                 </p>

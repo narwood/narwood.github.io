@@ -208,11 +208,21 @@ ul {
 /* Specific modal formatting */
 #achievements-modal img {
     width: 400px;
+    margin-left: 0px;
 }
 
-#tetrashell-modal img, #akari-modal img, #graphics-modal img {
+#tetrashell-modal img, #akari-modal img, #graphics-modal img, #nyt-modal img {
     height: 300px;
 }
+
+#achievements-modal div p {
+    margin: 0px;
+}
+
+#achievements-modal {
+    height: 520px;
+}
+
 
 
 

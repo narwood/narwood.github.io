@@ -5,13 +5,11 @@ function hideModal(modalId) {
 
 function showModal(modalId) {
     let modal = document.getElementById(modalId);
-    let scroll = window.scrollY;
-    console.log(scroll);
 
-    modal.style.transform = `translate(-50%, ${-200 + window.scrollY}px)`;
+    modal.style.transform = `translate(-50%, ${window.scrollY - modal.offsetHeight / 2}px)`;
 
     document.getElementById("modal-overlay").style.visibility = 'visible';
-    document.getElementById(modalId).style.visibility = 'visible';
+    modal.style.visibility = 'visible';
 }
 
 
