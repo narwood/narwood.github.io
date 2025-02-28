@@ -12,5 +12,11 @@ function showModal(modalId) {
     modal.style.visibility = 'visible';
 }
 
+function clickLink(page) {
+    let link = document.createElement('a');
+    link.href = `../${page}`;
+    link.click();
+}
+
 
 
